@@ -49,22 +49,15 @@ Explain what these tests test and why
 
 ## Развёртывание
 
-Add additional notes about how to deploy this on a live system
-
+* Скачать с [репозитория] папку "Puzzle"
 ## Построено с помощью
 
 * [Delphi 7]([http://www.dropwizard.io/1.0.2/docs/](https://delphiseven.ru/)) - Использовалась среда разработки Delphi 7
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
+## Авторы
 
 Студент 4 курса Колледжа ВятГУ - Носков Максим Сергеевич 
 
-## Acknowledgments
+## Утверждение
 
 * Данная программа выполнялась в рамках уебной практики ПМ.03
-* Inspiration
-* etc
