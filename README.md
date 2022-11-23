@@ -4,41 +4,18 @@
 
 ## Начало работы
 
-Эти инструкции позволят вам получить копию проекта, запущенного на локальном компьютере для целей разработки и тестирования. Примечания по развертыванию проекта в действующей системе см. в разделе Развертывание.
-
-### Необходимые условия
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Эти инструкции позволят вам получить копию проекта, запущенного на локальном компьютере для целей разработки и тестирования. Примечания по развертыванию проекта в действующей системе см. в разделе Развёртывание
 
 ### Установка
 
-A step by step series of examples that tell you how to get a development env running
+Скачать с [репозитория] папку "Puzzle Game".Переместить её на рабочий стол или в любое другое место. 
 
-Say what the step will be
 
-```
-Give the example
-```
+## Просмотр тестов 
 
-And repeat
+Для просмотра ручных тестов, перейти в папку Documents и откройте документ Техническая документация 
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Что проверяют тесты
 
 ```
 - Работоспособность всех кнопок в системе
@@ -49,8 +26,9 @@ Explain what these tests test and why
 
 ## Развёртывание
 
-* Скачать с [репозитория] папку "Puzzle"
-## Построено с помощью
+* Запустить exe файл
+
+## Сделано с помощью
 
 * [Delphi 7]([http://www.dropwizard.io/1.0.2/docs/](https://delphiseven.ru/)) - Использовалась среда разработки Delphi 7
 
