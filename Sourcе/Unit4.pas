@@ -53,7 +53,7 @@ procedure TForm4.Button1Click(Sender: TObject);
     Puzzle;
     form1.show ;
     form4.Visible:=false;
-    end;
+   end;
   //Кнопка назад возвращает пользователя на форму выбора настроек
   procedure TForm4.Button4Click(Sender: TObject);
   begin
