@@ -32,33 +32,33 @@ uses unit1,unit2,unit3;
 {$R *.dfm}
 //Кнопка выбора сложности (сложность легкая)
 procedure TForm4.Button1Click(Sender: TObject);
-begin
-  Mer:=4;
-  Puzzle;
-  form1.show ;
-  form4.Visible:=false;
-end;
-//Кнопка выбора сложности   (сложность нормальная)
-procedure TForm4.Button2Click(Sender: TObject);
-begin
-  Mer:=8;
-  Puzzle;
-  form1.show ;
-  form4.Visible:=false;
-end;
-//Кнопка выбора сложности  (сложность сложная)
-procedure TForm4.Button3Click(Sender: TObject);
-begin
-  Mer:=16;
-  Puzzle;
-  form1.show ;
-  form4.Visible:=false;
+  begin
+    Mer:=4;
+    Puzzle;
+    form1.show ;
+    form4.Visible:=false;
   end;
-//Кнопка назад возвращает пользователя на форму выбора настроек
-procedure TForm4.Button4Click(Sender: TObject);
-begin
-  form3.Show;
-  form4.Visible:=false;
-end;
+  //Кнопка выбора сложности   (сложность нормальная)
+  procedure TForm4.Button2Click(Sender: TObject);
+  begin
+    Mer:=8;
+    Puzzle;
+    form1.show ;
+    form4.Visible:=false;
+  end;
+  //Кнопка выбора сложности  (сложность сложная)
+  procedure TForm4.Button3Click(Sender: TObject);
+  begin
+    Mer:=16;
+    Puzzle;
+    form1.show ;
+    form4.Visible:=false;
+    end;
+  //Кнопка назад возвращает пользователя на форму выбора настроек
+  procedure TForm4.Button4Click(Sender: TObject);
+  begin
+    form3.Show;
+    form4.Visible:=false;
+  end;
 
 end.
