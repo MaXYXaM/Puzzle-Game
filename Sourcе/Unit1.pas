@@ -72,8 +72,8 @@ begin
   for j:=0 to 15 do
 //Два массива на два поле, 1-поле где складывается пазл,2-поле где ранее загруженная картинка разбивается на части
     begin
-    Copia[i,j]:=0;
-    Pole[i,j]:=0;
+      Copia[i,j]:=0;
+      Pole[i,j]:=0;
     end;
 
    Mer:=4;
@@ -273,18 +273,18 @@ begin
 end;
 //Кладем пазл на полотно
  if (Pole[X div XX,Y div YY]=0)and (PuzClick>0) and (S=False) then
-  begin
-  Pole[X div XX,Y div YY]:=PuzClick;
-  PuzClick:=0;
-  end;
+   begin
+   Pole[X div XX,Y div YY]:=PuzClick;
+   PuzClick:=0;
+   end;
  end;
 
  end;
 end;
 //Кнопка "рестарт" возвращает пазлы на изначальное положение перетосовав их между собой
 procedure TForm1.N1Click(Sender: TObject);
-begin
-  Puzzle;
-  Timer1.Enabled:=True;
-end;
+  begin
+    Puzzle;
+    Timer1.Enabled:=True;
+  end;
 end.
