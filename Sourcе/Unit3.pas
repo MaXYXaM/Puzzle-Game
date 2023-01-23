@@ -37,11 +37,11 @@ opendialog1.InitialDir:=Path+'\Image';
 opendialog1.Execute;
    if OpenDialog1.FileName<> '' then
      begin
-     Kart.LoadFromFile(OpenDialog1.FileName);
-     Orig.Canvas.StretchDraw(Rect(0,0,480,320),Kart);//И растягивает картинку до размеров 480х320
-     Puzzle;
-     form1.show;
-     form3.visible:=false;
+       Kart.LoadFromFile(OpenDialog1.FileName);
+       Orig.Canvas.StretchDraw(Rect(0,0,480,320),Kart);//И растягивает картинку до размеров 480х320
+       Puzzle;
+       form1.show;
+       form3.visible:=false;
      end;
 
 end;
