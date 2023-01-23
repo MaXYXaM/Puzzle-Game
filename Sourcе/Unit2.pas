@@ -29,21 +29,21 @@ uses unit1, Unit3;
 {$R *.dfm}
   //Закрытие формы Form2 при нажатии кнопки  "Выход"
   procedure TForm2.Button4Click(Sender: TObject);
-  begin
-  form2.Close;
-  end;
+    begin
+      form2.Close;
+    end;
 
   //Скрываем форму Form2 при нажатии кнопки  "Играть"
   procedure TForm2.Button1Click(Sender: TObject);
-  begin
-  Form2.Visible:=false;
-  form1.Show;
-
-  end;
+    begin
+      Form2.Visible:=false;
+      form1.Show;
+    end;
+    
   //Скрываем форму Form2 при нажатии кнопки  "Настройки"
   procedure TForm2.Button2Click(Sender: TObject);
-  begin
-  form2.Visible:=false;
-  form3.show
-  end;
+    begin
+      form2.Visible:=false;
+      form3.show
+    end;
   end.
