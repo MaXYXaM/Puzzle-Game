@@ -34,28 +34,28 @@ uses unit1,unit2,unit4;
 procedure TForm3.Button1Click(Sender: TObject);
 begin
 opendialog1.InitialDir:=Path+'\Image';
-   opendialog1.Execute;
+opendialog1.Execute;
    if OpenDialog1.FileName<> '' then
-   begin
-   Kart.LoadFromFile(OpenDialog1.FileName);
-   Orig.Canvas.StretchDraw(Rect(0,0,480,320),Kart);//И растягивает картинку до размеров 480х320
-   Puzzle;
-   form1.show;
-   form3.visible:=false;
-   end;
+     begin
+     Kart.LoadFromFile(OpenDialog1.FileName);
+     Orig.Canvas.StretchDraw(Rect(0,0,480,320),Kart);//И растягивает картинку до размеров 480х320
+     Puzzle;
+     form1.show;
+     form3.visible:=false;
+     end;
 
 end;
 //Кнопка "Сложность" открывает form 4(форма с выбором уровней сложности) и скрывает form3
 procedure TForm3.Button2Click(Sender: TObject);
 begin
-form4.show;
-form3.visible:=false;
+  form4.show;
+  form3.visible:=false;
 end;
 //Кнопка "Сложность" открывает form 2(форма с выбором уровней сложности) и скрывает form3
 procedure TForm3.Button3Click(Sender: TObject);
 begin
-form2.show;
-form3.visible:=false;
+  form2.show;
+  form3.visible:=false;
 end;
 
 end.
